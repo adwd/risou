@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## 理想？
+
+Angularアプリケーションを責務で分割する
+
+- `component` モジュール
+  - アプリの見た目の責務を負う。色とかアニメーションとか、CSS的な
+- `domain` モジュール
+  - バックエンドの通信やモデルとなるクラス、型を持つ
+- `app` モジュール
+  - `component`, `domain` モジュールを使ってアプリケーションを構築する
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
