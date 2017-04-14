@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ComponentModule } from './component/component.module';
+import { DomainModule } from './domain/domain.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ComponentModule } from './component/component.module';
     FormsModule,
     HttpModule,
     ComponentModule,
+    DomainModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
